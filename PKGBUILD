@@ -1,8 +1,8 @@
 # Maintainer: artist for Artix Linux and XLibre <artist@artixlinux.org>
 
 pkgname=xlibre-video-v4l
-pkgver=25.0.0
-pkgrel=6
+pkgver=25.0.1
+pkgrel=1
 pkgdesc="XLibre fork of v4l video driver"
 arch=(x86_64 aarch64)
 license=('X11')
@@ -63,4 +63,4 @@ package() {
   install -Dm644 "${srcdir}"/${_pkgname}-xlibre-${_pkgname}-${pkgver}/COPYING "${pkgdir}"/usr/share/licenses/${pkgname}/LICENSE
 }
 
-sha256sums=('31ad91ec85361606a4d24241bea9d5bd7c2402d1ddddac22d1bb3b50433a96c9')
+sha256sums=('b7f57e85481b0e579d80a6a34ee6760d17d92043152829bbe12430b5a8d603e3')

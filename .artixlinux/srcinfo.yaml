@@ -1,10 +1,10 @@
 ---
-version: 25.0.0-6
+version: 25.0.1-1
 pkgbase:
   name: xlibre-video-v4l
   pkgdesc: XLibre fork of v4l video driver
-  pkgver: 25.0.0
-  pkgrel: 6
+  pkgver: 25.0.1
+  pkgrel: 1
   url: https://github.com/X11Libre/xf86-video-v4l
   arch:
     - x86_64
@@ -24,9 +24,9 @@ pkgbase:
   conflicts:
     - xf86-video-v4l
   source:
-    - https://github.com/X11Libre/xf86-video-v4l/archive/refs/tags/xlibre-xf86-video-v4l-25.0.0.tar.gz
+    - https://github.com/X11Libre/xf86-video-v4l/archive/refs/tags/xlibre-xf86-video-v4l-25.0.1.tar.gz
   sha256sums:
-    - 31ad91ec85361606a4d24241bea9d5bd7c2402d1ddddac22d1bb3b50433a96c9
+    - b7f57e85481b0e579d80a6a34ee6760d17d92043152829bbe12430b5a8d603e3
 pkgname:
   - name: xlibre-video-v4l
-# generated with artixpkg 0.37.4-1-any
+# generated with artixpkg 0.37.5-1-any
